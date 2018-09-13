@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
         student.increments('id')
         student.string('first')
         student.string('last')
+        student.integer('age')
     })
 };
 
